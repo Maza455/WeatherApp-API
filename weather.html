@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  </head>
+  <body>
+    
+    <div class="container">
+    <h1 style="color:#00FFFF;"><b><i><u>Weather App</u></i></b></h1>
+    <li>
+    <form id="weather-form">
+      <label for="location-input"><u><b>Enter a location:</b></u></label>
+      <input type="text" id="location-input" placeholder="City, Country">
+      <button type="submit">Get Weather</button>
+    </li>
+    </form>
+    </div>
+
+    <ul id="weather-data"></ul>
+    <script src="weather.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  </body>
+</html>
